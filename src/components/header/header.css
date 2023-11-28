@@ -1,0 +1,71 @@
+.nav_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  padding: 0px 5rem;
+  background-color: var(--gray);
+}
+.nav_header ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: var(--gray-900);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.nav_header a{
+  text-decoration: none;
+}
+.main_header {
+  padding: 0px 5rem;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.p_tag {
+  display: flex;
+  gap: 30px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--gray-900);
+}
+.p_tag a {
+  text-decoration: none;
+}
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+.buttons button {
+  padding: 12px 24px;
+  border: 1px solid var(--violet);
+  border-radius: 24px;
+  cursor: pointer;
+  color: var(--violet);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  background-color: var(--white);
+}
+.buttons button:hover{
+background-color: var(--violet);
+color: var(--white);
+}
+.buttons .login {
+  background-color: var(--white);
+  color: var(--violet);
+}
+.login:hover{
+  background-color: var(--violet);
+  color: var(--white);
+}

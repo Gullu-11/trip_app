@@ -1,0 +1,55 @@
+.local {
+  display: flex;
+  padding: 120px 72px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.local_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.local_section h3 {
+  text-align: center;
+  color: var(--gray-900);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.img_all {
+  display: flex;
+  flex-direction: row;
+}
+
+.img1 {
+  position: relative;
+}
+
+.vector1 {
+  position: absolute;
+  padding-top: 52px;
+  left: -80px;
+}
+
+.img2 {
+  display: inline-flex;
+  padding-left: 0;
+  padding-top: 44px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  left: -70px;
+}
+
+.vector2 {
+  position: absolute;
+  right: -91px;
+  padding-top: 216px;
+}

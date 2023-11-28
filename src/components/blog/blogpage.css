@@ -1,0 +1,120 @@
+@font-face {
+  font-family: Inter;
+  src: url("../../../Fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+.fly {
+  position: relative;
+  padding-left: 54px;
+  padding-right: 54px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.fly_text {
+  position: absolute;
+  top: 43%;
+  left: 40%;
+  text-align: center;
+}
+
+.fly_text h4,
+.fly_text p {
+  font-family: Inter;
+}
+
+.fly_text h4 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  color: var(--white);
+}
+
+.fly_text p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.categories {
+  display: flex;
+  padding: 72px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.categories button {
+  display: flex;
+  padding: 12px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 100px;
+  background-color: var(--gray);
+  border: 1px solid var(--gray);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--gray-700);
+}
+
+.categories button:hover {
+  background-color: var(--violet);
+  color: var(--white);
+  font-weight: 500;
+}
+
+.trip_section {
+  display: flex;
+  padding: 0px 72px 120px 72px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.first_img_section img,
+.second_img_section img {
+  width: 100%;
+  height: auto;
+}
+
+.first_img_section div,
+.second_img_section div {
+  height: 354px;
+  background-color: var(--gray);
+}
+
+.first_img_section,
+.second_img_section {
+  display: flex;
+  gap: 20px;
+  padding-top: 24px;
+}
+
+.trip_section h6 {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  color: var(--gray-900);
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.trip_section p {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 384px;
+  height: 60px;
+  flex-shrink: 0;
+  padding-left: 16px;
+}

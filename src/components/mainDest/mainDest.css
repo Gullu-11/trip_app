@@ -1,0 +1,87 @@
+.main_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 120px;
+}
+.main_img img {
+  border-radius: 20px;
+  position: relative;
+  width: 90%;
+}
+.img_text {
+  position: absolute;
+}
+.img_text h5 {
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+  color: var(--white);
+}
+.img_text p {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: var(--white);
+}
+.destinations_section {
+  display: flex;
+  padding: 0px 182px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.city {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+.Europe {
+  width: 196px;
+  border-right: 1px solid var(--gray-100);
+}
+.city h4 {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  color: var(--violet);
+}
+.city ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  list-style: none;
+}
+.city ul li {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.Asia {
+  width: 196px;
+  border-right: 1px solid var(--gray-100);
+}
+.Africa {
+  width: 196px;
+  border-right: 1px solid var(--gray-100);
+}
+.cAmerica {
+  width: 196px;
+  border-right: 1px solid var(--gray-100);
+}
+.sAmerica {
+  width: 196px;
+  border-right: none;
+}

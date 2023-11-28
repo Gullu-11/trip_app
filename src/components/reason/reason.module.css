@@ -1,0 +1,71 @@
+.plan_trip_container {
+    display: flex;
+    padding: 120px 72px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .plan_trip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+  }
+  
+  .plan_trip h4 {
+    width: 492px;
+    color: var(--gray-900);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  
+  .reason_section1,
+  .reason_section2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  
+  .reason {
+    display: flex;
+    width: 400px;
+    height: 190px;
+    padding: 32px;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 20px;
+    background: var(--gray-50, #f5f7fa);
+  }
+  
+  .reason div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+  }
+  
+  .reason h6,
+  .reason p {
+    font-family: Inter;
+    line-height: 24px;
+    color: var(--gray-900);
+  }
+  
+  .reason h6 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .reason p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  

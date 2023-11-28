@@ -1,0 +1,15 @@
+.valute {
+    display: flex;
+    align-items: center;
+  }
+  
+  .val_span {
+    color: var(--violet);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 18px;
+  }
+  
